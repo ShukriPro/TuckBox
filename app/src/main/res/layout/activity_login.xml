@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+  <!-- App Logo or Title can be placed here -->
+  <ImageView
+      android:src="@drawable/logo"
+      android:layout_width="400dp"
+      android:layout_height="200dp"/>
+  <!-- Username or Email Input -->
+  <EditText
+      android:id="@+id/edtUsername"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:hint="Email"
+      android:inputType="textEmailAddress" />
+
+  <!-- Password Input -->
+  <EditText
+      android:id="@+id/edtPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:hint="Password"
+      android:inputType="textPassword" />
+
+  <!-- Login Button -->
+  <Button
+      android:onClick="btnLogin"
+      android:id="@+id/btnLogin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:backgroundTint="#fe7817"
+      android:textStyle="bold"
+      android:text="Login" />
+
+  <!-- Signup Text and Button -->
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="Don't have an account?" />
+
+  <TextView
+      android:gravity="center_horizontal"
+      android:onClick="btnSignUp"
+      android:id="@+id/btnSignup"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Create an account!"
+      android:textColor="#fe7817"
+      android:textStyle="bold" />
+
+
+</LinearLayout>

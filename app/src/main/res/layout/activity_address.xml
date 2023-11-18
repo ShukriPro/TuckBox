@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddressActivity"
+    >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- Street Address Input -->
+        <EditText
+            android:id="@+id/editTextStreetAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street Address" />
+
+        <!-- City Input -->
+        <EditText
+            android:id="@+id/editTextCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City" />
+
+        <!-- Postal Code Input -->
+        <EditText
+            android:id="@+id/editTextPostal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Postal Code" />
+
+        <!-- Add Address Button -->
+        <Button
+            android:id="@+id/buttonAddAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD ADDRESS"
+            android:onClick="onAddAddressClick" />
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:onClick="onCancelClick" />
+    </LinearLayout>
+</LinearLayout>

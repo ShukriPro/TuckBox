@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "936148585132",
+    "firebase_url": "https://tuckbox-7cc70-default-rtdb.firebaseio.com",
+    "project_id": "tuckbox-7cc70",
+    "storage_bucket": "tuckbox-7cc70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936148585132:android:dc3ff2b4da46cedcdded09",
+        "android_client_info": {
+          "package_name": "com.example.tuckbox"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp3I5uTCJaoBsoAR6kGZX3ZsGgGDHSyqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
